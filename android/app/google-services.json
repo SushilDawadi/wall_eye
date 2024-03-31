@@ -1,0 +1,29 @@
+{
+	"project_info": {
+		"project_number": "645311681518",
+		"project_id": "wallpaperapp-30050",
+		"storage_bucket": "wallpaperapp-30050.appspot.com"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:645311681518:android:707e36823db9d04d67f4ff",
+				"android_client_info": {
+					"package_name": "com.example.wall_eye_app"
+				}
+			},
+			"oauth_client": [],
+			"api_key": [
+				{
+					"current_key": "AIzaSyCVrb54nzseo8iyh50qpo3NpQNcvtN7Oho"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": []
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}
