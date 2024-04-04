@@ -1,7 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:wall_eye_app/admin/add_Wallpaper.dart';
+import 'package:wall_eye_app/pages/button.dart';
 import 'package:wall_eye_app/pages/input_field.dart';
 
 class AdminLogin extends StatefulWidget {
@@ -86,25 +88,7 @@ class _AdminLoginState extends State<AdminLogin> {
                             onTap: () {
                               loginAdmin();
                             },
-                            child: Container(
-                              margin:
-                                  const EdgeInsets.symmetric(horizontal: 20.0),
-                              padding:
-                                  const EdgeInsets.symmetric(vertical: 12.0),
-                              decoration: BoxDecoration(
-                                color: Colors.black,
-                                borderRadius: BorderRadius.circular(7.0),
-                              ),
-                              child: const Center(
-                                child: Text(
-                                  'LogIn',
-                                  style: TextStyle(
-                                      fontSize: 20.0,
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.w500),
-                                ),
-                              ),
-                            ),
+                            child: const MyButton(text: "Login"),
                           ),
                         ],
                       ),
